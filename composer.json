@@ -1,6 +1,6 @@
 {
     "name": "osmphp/framework-project",
-    "description": "Osm project template",
+    "description": "A project template based on osmphp/framework package",
     "license": "GPL-3.0-only",
     "authors": [
         {
