@@ -1,7 +1,7 @@
 {
-    "name": "osmphp/framework-project",
-    "description": "A project template based on osmphp/framework package",
-    "license": "GPL-3.0-only",
+    "name": "osmphp/project",
+    "description": "Osm Framework-based project template",
+    "license": "AGPL-3.0-only",
     "authors": [
         {
             "name": "Vladislav Osmianskij",
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "osmphp/framework": "^0.7@dev"
+        "osmphp/framework": "^0.9"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"
