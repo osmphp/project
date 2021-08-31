@@ -9,11 +9,10 @@ require 'vendor/autoload.php';
 umask(0);
 
 try {
-    Apps::$project_path = dirname(dirname(__DIR__));
+    Apps::$project_path = dirname(__DIR__);
     Apps::compile(App::class);
     Apps::run(Apps::create(App::class), function(App $app) {
         $app->cache->clear();
-        $app->migrations()->fresh();
     });
 }
 catch (Throwable $e) {
