@@ -1,7 +1,7 @@
 {
     "name": "osmphp/project",
     "description": "Osm Framework-based project template",
-    "license": "AGPL-3.0-only",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Vladislav Osmianskij",
