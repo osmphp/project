@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "osmphp/framework": "^0.10"
+        "osmphp/framework": "^0.11"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"
