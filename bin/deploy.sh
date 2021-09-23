@@ -14,6 +14,7 @@ git fetch
 $OSM http:down
 git merge origin/$BRANCH
 composer install
+$OSMC Osm_Project
 $OSMC Osm_Tools
 $OSMT config:npm
 npm install
